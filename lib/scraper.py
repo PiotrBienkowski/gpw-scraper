@@ -2,6 +2,7 @@ import wget
 from dotenv import load_dotenv
 import os
 
+
 def download():
     load_dotenv()
 
@@ -10,6 +11,7 @@ def download():
         print("Download successfully completed")
     except Exception as e:
         print("Error: ", e)
+
 
 def remove():
     load_dotenv()
